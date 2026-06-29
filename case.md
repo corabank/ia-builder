@@ -58,14 +58,13 @@ Um JSON com **dois grupos** e um **resumo**:
 
 ## Regras
 
-1. **Email é a identidade do lead.** Normalize (minúsculo, sem espaços). Lead sem email válido vai para `rejected` com o motivo — **não derruba o processo**.
-2. **Deduplique por email.** O mesmo email não pode aparecer duas vezes em `leads`.
-3. **Normalize as datas** para `YYYY-MM-DD`. A entrada tem vários formatos.
-4. **Telefone**: deixe num formato consistente, ou `null` se não der.
-5. **`segment`** é a intenção do lead, inferida a partir da **mensagem** dele:
+1. **Email é a identidade do lead.** Padronize e trate o que não for válido.
+2. **Normalize as datas**, a entrada tem vários formatos.
+3. **Telefone**: deixe num formato consistente.
+4. **`segment`** é a intenção do lead, inferida a partir da **mensagem** dele:
    - `hot` = quer comprar / urgente · `warm` = comparando / decisão futura · `cold` = só pesquisando.
    - **Sem mensagem, não há o que inferir → `unknown`** (não chute).
-6. O resultado tem que **bater com o schema** acima.
+5. O resultado tem que **bater com o schema** acima.
 
 ## Combinados
 

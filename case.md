@@ -4,7 +4,7 @@
 
 ## Contexto
 
-O time de marketing recebe leads de uma fonte de dados, e os dados chegam **bagunçados**: campos faltando, formatos inconsistentes, emails inválidos, duplicatas. Antes de subir esses leads pro CRM, eles precisam ser limpos, validados e classificados.
+O time de marketing recebe leads de uma fonte de dados, e os dados chegam **bagunçados**: campos faltando, formatos inconsistentes, emails inválidos, duplicatas. Antes de subir esses leads para aplicação, eles precisam ser limpos, validados e classificados.
 
 Sua tarefa é **construir uma ferramenta que recebe o arquivo bruto e produz uma lista pronta pro CRM**.
 

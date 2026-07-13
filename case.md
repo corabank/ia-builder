@@ -15,7 +15,6 @@ O case tem duas etapas: primeiro a gente **discute a estratégia de ingestão**,
 Antes de codar, queremos conversar sobre **como** você levaria esses dados até o destino. Aqui não tem código nem resposta única certa — queremos seu raciocínio e os trade-offs por trás de cada escolha. Pense em voz alta sobre:
 
 - **Qual seria o destino dos dados? Por quê?** 
-- **O que você usaria para a ingestão?** 
 - **Como monitorar a integração de dados?** 
 - **E se o destino fosse o datalake, como você organizaria os dados?**
 

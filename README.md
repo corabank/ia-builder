@@ -29,10 +29,7 @@ Pode pensar em voz alta, errar, voltar atrás e perguntar. É assim que a gente 
 
 ## Como funciona o case
 
-O case tem **duas etapas**, nessa ordem:
-
-1. **🧠 Discussão — estratégia de ingestão.** Antes de codar, a gente conversa sobre **como** você levaria esses dados até o destino (CRM, datalake, os dois?), o que usaria pra ingestão, como monitoraria a integração e como organizaria os dados se o destino fosse um datalake. Sem código, sem resposta única — queremos os **trade-offs**.
-2. **🛠️ Mão na massa — construir a ferramenta.** A partir daí você constrói a ferramenta que lê o `leads_raw.json` e produz a saída no schema esperado.
+**🛠️ Mão na massa** Você constrói a ferramenta que lê o `leads_raw.json` e produz a saída no schema esperado.
 
 > **Info:** os detalhes de cada etapa, o schema de saída e as regras estão no [`case.md`](case.md). Leia com calma antes de começar.
 

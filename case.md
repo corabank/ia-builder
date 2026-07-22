@@ -8,17 +8,7 @@ O time de marketing recebe leads de uma fonte de dados, e os dados chegam **bagu
 
 Sua tarefa é **construir uma ferramenta que recebe o arquivo bruto e produz uma lista pronta pro CRM**.
 
-O case tem duas etapas: primeiro a gente **discute a estratégia de ingestão**, e só depois você vai pra **mão na massa** construir a ferramenta.
-
-## Etapa 1 — Discussão: estratégia de ingestão
-
-Antes de codar, queremos conversar sobre **como** você levaria esses dados até o destino. Aqui não tem código nem resposta única certa — queremos seu raciocínio e os trade-offs por trás de cada escolha. Pense em voz alta sobre:
-
-- **Qual seria o destino dos dados? Por quê?** 
-- **Como monitorar a integração de dados?** 
-- **E se o destino fosse o datalake, como você organizaria os dados?**
-
-## Etapa 2 — Mão na massa
+## Mão na massa
 
 A partir daqui é a construção da ferramenta descrita acima.
 
@@ -70,3 +60,9 @@ Um JSON com **dois grupos** e um **resumo**:
 - Pense em voz alta — queremos acompanhar seu raciocínio e como você usa a IA.
 - Comece pelo que entrega valor; o que não der tempo, explique como faria.
 - Pode perguntar. Faça as perguntas que você faria num problema real antes de sair codando.
+
+## Glossário
+
+**Lead** - um contato que demonstrou algum interesse no seu produto/serviço (deixou e-mail, preencheu formulário, pediu orçamento), mas ainda não é cliente. É um potencial cliente que entrou no radar.
+**CRM** (Customer Relationship Management) — o sistema/software onde você registra e acompanha todos esses contatos e clientes: quem são, o histórico de conversas, em que etapa da negociação estão e quais os próximos passos. É a ferramenta que organiza o relacionamento com leads e clientes num só lugar.
+**Trade-off** — uma escolha em que, para ganhar uma coisa, você abre mão de outra. Não dá pra ter as duas ao mesmo tempo, então você troca um benefício por outro.

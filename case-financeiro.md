@@ -51,11 +51,12 @@ Um JSON com **dois grupos** e um **resumo**:
 
 ## Regras
 
-1. **O `id` é a identidade do lançamento.** Padronize. Sem `id`, não dá para conferir: vai para `rejected`.
+1. **O `id` é a identidade do lançamento.** Padronize e trate o que não for válido.
 2. **O mesmo lançamento pode aparecer em mais de uma fonte.** Ele deve entrar **uma vez só** na lista.
-3. **Valor**: a entrada mistura formatos (`1.250,00`, `780.00`, `R$ 640`…). Na saída, é um número com 2 casas decimais. Valor que não é número vai para `rejected`.
-4. **Normalize as datas**: a entrada tem vários formatos.
-5. O resultado tem que **bater com o schema** acima, e o `summary` tem que **bater com a lista**.
+3. **Valor**: a entrada mistura formatos (`1.250,00`, `780.00`, `R$ 640`…). Na saída, é um número com 2 casas decimais. 
+4. **Documento**: deixe num formato consistente.
+5. **Normalize as datas**: a entrada tem vários formatos.
+6. O resultado tem que **bater com o schema** acima, e o `summary` tem que **bater com a lista**.
 
 ## Combinados
 
@@ -67,5 +68,3 @@ Um JSON com **dois grupos** e um **resumo**:
 
 **Lançamento**: cada movimentação de dinheiro registrada (um pagamento, um recebimento, uma tarifa). É uma linha do arquivo.
 **Fechamento**: o momento, geralmente mensal, em que o financeiro confere todas as movimentações do período para saber quanto entrou, quanto saiu e se os números batem.
-**Estorno**: a devolução de um valor que já tinha sido pago ou cobrado.
-**ISO (YYYY-MM-DD)**: um jeito padrão de escrever datas (ano-mês-dia), por exemplo `2026-09-01`. Sistemas preferem esse formato porque ele não é ambíguo.

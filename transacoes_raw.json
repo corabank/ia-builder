@@ -1,0 +1,106 @@
+[
+  {
+    "id": "TX-1001",
+    "date": "2026-09-01",
+    "description": "Pagamento fornecedor Gráfica Alfa",
+    "amount": "1.250,00",
+    "direction": "out",
+    "document": "12.345.678/0001-90",
+    "source": "extrato"
+  },
+  {
+    "id": " tx-1002",
+    "date": "01/09/2026",
+    "description": "PIX recebido - Cliente Beta",
+    "amount": "R$ 3.400,50",
+    "direction": "in",
+    "document": "98765432000110",
+    "source": "extrato"
+  },
+  {
+    "id": "TX-1002",
+    "date": "2026-09-01",
+    "description": "Pix recebido Cliente Beta",
+    "amount": 3400.5,
+    "direction": "in",
+    "document": "98.765.432/0001-10",
+    "source": "erp"
+  },
+  {
+    "id": "TX-1003",
+    "date": "Sep 2, 2026",
+    "description": "Tarifa manutenção conta",
+    "amount": "29.90",
+    "direction": "out",
+    "source": "extrato"
+  },
+  {
+    "date": "2026-09-02",
+    "description": "DARF IRPJ",
+    "amount": "8.900,00",
+    "direction": "out",
+    "source": "planilha-manual"
+  },
+  {
+    "id": "TX-1004",
+    "date": "2026/09/03",
+    "description": "Recolhimento ISS",
+    "amount": "512,3",
+    "direction": "out",
+    "document": "123",
+    "source": "planilha-manual"
+  },
+  {
+    "id": "TX-1005",
+    "data": "03-09-2026",
+    "description": "Recebimento boleto 4521",
+    "amount": "2000",
+    "direction": "in",
+    "source": "erp"
+  },
+  {
+    "id": "TX-1006",
+    "date": "2026-09-04T14:22:00Z",
+    "description": "",
+    "amount": "780.00",
+    "direction": "out",
+    "document": "111.222.333-44",
+    "source": "extrato"
+  },
+  {
+    "id": "TX-1007",
+    "date": "2026-09-04",
+    "description": "Pagamento fornecedor Café Gama",
+    "amount": "abc",
+    "direction": "out",
+    "source": "planilha-manual"
+  },
+  {
+    "id": "TX-1008",
+    "date": "1788480000",
+    "description": "Tarifa PIX",
+    "amount": "1,50",
+    "direction": "out",
+    "source": "extrato"
+  },
+  {
+    "id": "TX-1009",
+    "date": "2026-09-05",
+    "description": "Estorno pagamento fornecedor Gráfica Alfa",
+    "amount": "1.250,00",
+    "direction": "in",
+    "source": "extrato"
+  },
+  {
+    "source": "extrato",
+    "date": "2026-09-06"
+  },
+  {
+    "id": "TX-1010",
+    "date": "6 set 2026",
+    "description": "Pagamento fornecedor Limpeza Delta",
+    "amount": "R$ 640",
+    "direction": "out",
+    "source": "planilha-manual"
+  }
+]

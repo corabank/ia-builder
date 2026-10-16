@@ -53,10 +53,9 @@ Um JSON com **dois grupos** e um **resumo**:
 
 1. **O `id` é a identidade do lançamento.** Padronize e trate o que não for válido.
 2. **O mesmo lançamento pode aparecer em mais de uma fonte.** Ele deve entrar **uma vez só** na lista.
-3. **Valor**: a entrada mistura formatos (`1.250,00`, `780.00`, `R$ 640`…). Na saída, é um número com 2 casas decimais. 
-4. **Documento**: deixe num formato consistente.
-5. **Normalize as datas**: a entrada tem vários formatos.
-6. O resultado tem que **bater com o schema** acima, e o `summary` tem que **bater com a lista**.
+3. **Documento**: deixe num formato consistente.
+4. **Normalize as datas**: a entrada tem vários formatos.
+5. O resultado tem que **bater com o schema** acima, e o `summary` tem que **bater com a lista**.
 
 ## Combinados
 
